@@ -10,19 +10,6 @@ categories:
 description: Ubuntu服务器配置各种网站
 ---
 
----
-
-# 目录
-
-- [目录](#目录)
-- [自搭运行环境 - Tomcat](#自搭运行环境---tomcat)
-  - [Step1 - 安装 java 环境](#step1---安装java环境)
-  - [Step2 - 安装 Tomcat](#step2---安装tomcat)
-- [使用宝塔](#使用宝塔)
-  - [安装宝塔](#安装宝塔)
-
----
-
 # 自搭运行环境 - Tomcat
 
 ## Step1 - 安装 java 环境
@@ -67,8 +54,7 @@ description: Ubuntu服务器配置各种网站
   source ~/.bashrc
   ```
   **4. 检验安装结果**
-  `    java -version
-   `
+  `  java -version`
   出现与以下结果类似则说明安装成功
   > hadoop@fzqs-computer:~$ java -version</br>
   > java version "1.8.0_301"</br>
@@ -177,4 +163,4 @@ sudo systemctl restart tomcat
 
 **一路回车直到显示**
 
-<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-18-22-05-13.png" width=80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog@main/source/_posts/.pic/2022-11-18-22-05-13.png" width=80%/></div>

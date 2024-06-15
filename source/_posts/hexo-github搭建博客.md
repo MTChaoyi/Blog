@@ -9,30 +9,6 @@ categories:
   - 一点小教程
 ---
 
----
-
-# 目录
-
-- [目录](#目录)
-- [环境搭建](#环境搭建)
-- [连接 Github](#连接-github)
-- [创建 Github Pages 仓库](#创建-github-pages-仓库)
-- [本地安装 Hexo 博客程序](#本地安装-hexo-博客程序)
-  - [安装 Hexo](#安装-hexo)
-  - [Hexo 初始化和本地预览](#hexo-初始化和本地预览)
-- [部署 Hexo 到 GitHub Pages](#部署-hexo-到-github-pages)
-- [绑定域名（可选）](#绑定域名可选)
-  - [域名注册和解析](#域名注册和解析)
-  - [绑定域名到 Hexo 博客](#绑定域名到-hexo-博客)
-- [开始使用](#开始使用)
-  - [发布文章](#发布文章)
-  - [网站设置](#网站设置)
-  - [更换主题](#更换主题)
-  - [常用命令](#常用命令)
-- [常见问题](#常见问题)
-
----
-
 # 环境搭建
 
 Hexo 基于 Node.js，搭建过程中还需要使用 npm（Node.js 已带） 和 git，因此先搭建本地操作环境，安装 Node.js 和 Git。
@@ -44,7 +20,7 @@ Hexo 基于 Node.js，搭建过程中还需要使用 npm（Node.js 已带） 和
 
 安装完成后, `Win+R` 输入 `cmd` 并打开，依次输入 `node -v`、`npm -v` 和 `git --version` 并回车，如下图出现程序版本号即可。
 
-<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-19-01-53-43.png" width = 60%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog@main/source/_posts/.pic/2022-11-19-01-53-43.png" width = 60%/></div>
 
 # 连接 Github
 
@@ -78,7 +54,7 @@ Hexo 基于 Node.js，搭建过程中还需要使用 npm（Node.js 已带） 和
 - 验证连接：<br>
   打开 Git Bash，输入 `ssh -T git@github.com` 出现 _Are you sure……_，输入 `yes` 回车确认。
 
-  <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-19-02-17-03.png" width = 80%/></div>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog@main/source/_posts/.pic/2022-11-19-02-17-03.png" width = 80%/></div>
   显示 *Hi xxx! You've successfully……* 即连接成功。
 
 # 创建 Github Pages 仓库
@@ -140,13 +116,13 @@ hexo s    # 启动预览
 
 访问 http://localhost:4000, 出现 Hexo 默认页面，本地博客安装成功！
 
-<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-19-01-54-11.png" width = 80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog@main/source/_posts/.pic/2022-11-19-01-54-11.png" width = 80%/></div>
 
 **Tips：** 如果出现页面加载不出来，可能是端口被占用了。_Ctrl+C_ 关闭服务器，运行 `hexo server -p 5000` 更改端口号后重试。<br><br>
 
 **Hexo 博客文件夹目录结构如下：**
 
-<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-19-01-55-05.png" width = 80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog@main/source/_posts/.pic/2022-11-19-01-55-05.png" width = 80%/></div>
 
 # 部署 Hexo 到 GitHub Pages
 
