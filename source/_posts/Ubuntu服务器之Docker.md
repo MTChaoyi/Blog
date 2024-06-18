@@ -1,6 +1,5 @@
 ---
 title: Ubuntu服务器之Docker
-date: 2023-02-03 01:30:37
 tags:
   - Ubuntu
   - 服务器
@@ -8,6 +7,7 @@ tags:
 categories:
   - 一点小教程
 description: Ubuntu服务器配置Docker环境
+date: 2023-02-03 01:30:37
 ---
 
 # 安装 Docker 环境

@@ -1,6 +1,5 @@
 ---
 title: Ubuntu服务器之网站
-date: 2022-11-18 21:59:44
 tags:
   - Ubuntu
   - 服务器
@@ -8,6 +7,7 @@ tags:
 categories:
   - 一点小教程
 description: Ubuntu服务器配置各种网站
+date: 2022-11-18 21:59:44
 ---
 
 # 自搭运行环境 - Tomcat

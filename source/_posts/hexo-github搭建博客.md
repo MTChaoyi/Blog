@@ -1,12 +1,12 @@
 ---
 title: hexo-github搭建博客
-date: 2022-03-17 23:42:34
 tags:
   - 教程
   - Hexo
   - 分享
 categories:
   - 一点小教程
+date: 2022-03-17 23:42:34
 ---
 
 # 环境搭建

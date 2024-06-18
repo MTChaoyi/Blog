@@ -1,12 +1,12 @@
 ---
 title: Ubuntu服务器搭建
-date: 2022-11-13 04:39:57
 tags:
   - Ubuntu
   - 服务器
 categories:
   - 一点小教程
 description: 自用的Ubuntu服务器搭建过程
+date: 2022-11-13 04:39:57
 ---
 
 # Ubuntu 安装
