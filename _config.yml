@@ -6,8 +6,8 @@
 title: 梦天小记
 subtitle: ""
 description: "个人博客，笔记和日记汇总"
-keywords: 博客,笔记,日记,梦天
-author: MTChaoyi
+keywords: 博客,笔记,日记,梦天,Mtian
+author: Mtian
 language: zh-CN
 timezone: "Asia/Shanghai"
 
@@ -131,6 +131,8 @@ image_minifier:
   optimizationLevel: 2
   pngquant: false
   progressive: false
+  exclude:
+    - "jpg"
 
 sitemap:
   path:
@@ -138,3 +140,18 @@ sitemap:
   rel: false
   tags: false
   categories: true
+
+baidusitemap:
+  path: baidusitemap.xml
+
+feed:
+  enable: true
+  type: atom
+  path: feed.xml
+  limit: 20
+  hub: https://pubsubhubbub.appspot.com
+  content: true
+  order_by: -date
+  icon: /img/myicon.png
+  autodiscovery: true
+  # template: ./source/uploads/atom_template.xml
