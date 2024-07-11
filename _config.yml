@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid
+theme: keep
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -155,3 +155,9 @@ feed:
   icon: /img/myicon.png
   autodiscovery: true
   # template: ./source/uploads/atom_template.xml
+
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags

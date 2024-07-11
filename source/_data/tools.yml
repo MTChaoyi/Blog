@@ -1,0 +1,16 @@
+- category: 自建服务
+
+- name: 哪吒监控
+  link: https://nezha.mtian.net
+  description: 服务器监控与运维工具
+  image: /img/tools/nezha.png
+
+- name: Photopea
+  link: https://ps.mtian.net
+  description: 免费的在线图片编辑器
+  image: /img/tools/photopea.png
+
+- name: OpenChat
+  link: https://openchat.mtian.net
+  description: Open WebUI
+  image: /img/tools/openwebui.png
