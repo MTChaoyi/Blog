@@ -1,4 +1,8 @@
-/* 背景图片 */
+body,
+html {
+  background: unset;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -10,9 +14,8 @@ body::before {
   background: url(/img/background-purple.jpg) center/cover no-repeat;
 }
 
-body,
-html {
-  background: unset;
+:root {
+  --home-post-hover-scale: 1.025;
 }
 
 .light-mode {
@@ -34,19 +37,16 @@ html {
   background-image: none;
 }
 
-.bg-cloud {
-  display: flex;
-  width: 100%;
-  height: 100px;
+.first-screen-container::before {
+  content: "";
   position: absolute;
   bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 8;
-  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  background: url(/img/wave-bg.svg) no-repeat center center;
   pointer-events: none;
   mix-blend-mode: overlay;
-  background: url(/img/wave-bg.svg) no-repeat center center;
+  z-index: 10;
 }
 
 .header-wrapper {

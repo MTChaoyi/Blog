@@ -186,7 +186,7 @@ website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: true # Option values: true | false
+    enable: false # Option values: true | false
     site_uv: true # Option values: true | false
     site_pv: true # Option values: true | false
     page_pv: true # Option values: true | false
@@ -283,7 +283,7 @@ lazyload:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/cdn.html
 # ---------------------------------------------------------------------------------------
 cdn:
-  enable: true # Option values: true | false
+  enable: false # Option values: true | false
   provider: cdnjs # Option values: cdnjs | jsdelivr | unpkg
 
 # ---------------------------------------------------------------------------------------
@@ -327,6 +327,6 @@ inject:
   js:
     -
     # e.g.
-    - /js/custom-1.js
+    # - /js/custom-1.js
     # - /js/custom-2.js
     # - ...

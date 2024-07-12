@@ -13,7 +13,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.mtian.net
+url: https://www.mtian.net
 permalink: :year:month:day:hour:minute.html
 permalink_defaults:
 pretty_urls:

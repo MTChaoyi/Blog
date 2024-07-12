@@ -1,8 +1,8 @@
 User-agent: Baiduspider
 
-Sitemap: https://blog.mtian.net/baidusitemap.xml
+Sitemap: https://www.mtian.net/baidusitemap.xml
 
 User-agent: *
 Disallow:
 
-Sitemap: https://blog.mtian.net/sitemap.xml
+Sitemap: https://www.mtian.net/sitemap.xml
