@@ -2197,10 +2197,10 @@ hexo-theme-fluid@^1.9.7:
   resolved "https://registry.npmmirror.com/hexo-theme-fluid/-/hexo-theme-fluid-1.9.7.tgz#53a2ef5e7de2dd237af93a6f6cf76df093178afe"
   integrity sha512-rLpUNcs8XhAQZ9Iq8nZ27XbMDtbJs/y35kkpPmebUqV9hV+j3/Yy3tf3zKJW3nzZhTO/8bXYrtNDvmoj1TRmBQ==
 
-hexo-theme-keep@^4.1.5:
-  version "4.1.5"
-  resolved "https://registry.npmmirror.com/hexo-theme-keep/-/hexo-theme-keep-4.1.5.tgz#177f9b40c53bd2d24835bdaf5316434f9eecb1ed"
-  integrity sha512-3Rmh2BPynUjiE6Vfl1xQBDaUcrOPLOmiCiTZGBPbJNscHpRxiCGPrHEV9q9k8kacXKIQpNLKTm13cvhqKfPUmg==
+hexo-theme-keep@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.npmmirror.com/hexo-theme-keep/-/hexo-theme-keep-4.2.0.tgz#c10ac468a14a9063f7c834fc77717ee6b4360c84"
+  integrity sha512-dDKlTTto8+mZECf80FKZVDfdTOebII0RNVyow+KOledf6/1S5qJA42sZJX9ShZknMySonjwIxe9J3mdMtFTUGQ==
 
 hexo-theme-landscape@^1.0.0:
   version "1.0.0"
