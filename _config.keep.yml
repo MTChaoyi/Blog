@@ -18,13 +18,13 @@ base_info:
   author: Mtian
 
   # Author avatar, You can use local image path or image link
-  avatar: /img/myavatar.png
+  avatar: /images/myavatar.png
 
   # Website LOGO, You can use local image path or image link
-  logo: /img/myicon.png
+  logo: /images/myicon.png
 
   # Website favicon, You can use local image path or image link
-  favicon: /img/myicon.png
+  favicon: /images/myicon.png
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/menu.html
@@ -73,15 +73,15 @@ social_contact:
     # at the same time change your link to the image link.
     # e.g. `weixin: img | ./images/qrcode.png`
     github: https://github.com/MTChaoyi # GitHub
-    bilibili: https://space.bilibili.com/487332642
+    bilibili:
     weixin: # WeChat
-    qq: img | /img/qq.png # QQ
+    qq: # img | /images/qq.png # QQ
     weibo: # WeiBo
     zhihu: # ZhiHu
     twitter: # Twitter
     x: # X
     facebook: # Facebook
-    email: email@mtian.net # Email
+    email: admin@mtian.net # Email
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/scroll.html
@@ -151,6 +151,8 @@ post:
     img_link: # Image link for the payment QR code
     text: # Custom reward text, Can be null
 
+  img_align: center
+
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/code_block.html
 # ---------------------------------------------------------------------------------------
@@ -177,7 +179,7 @@ toc:
   init_open: true # Option values: true | false
 
   # TOC layout on post page
-  layout: left # Option values: left | right
+  layout: right # Option values: left | right
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/website_count.html

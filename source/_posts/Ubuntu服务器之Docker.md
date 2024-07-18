@@ -49,7 +49,7 @@ date: 2023-02-03 01:30:37
   docker images
   ```
 
-  <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog@main/source/_posts/.pic/2023-02-03-12-41-29.png" width = 80%/></div>
+  <div align=center><img src="../images/posts/2023-02-03-12-41-29.png" width = 80%/></div>
 
 - 使用`save`命令，通过镜像 id 导出镜像到宿主机当前文件夹下
 
@@ -57,7 +57,7 @@ date: 2023-02-03 01:30:37
   docker save -o qinglong.tar whyour/qinglong:latest
   ```
 
-  <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog@main/source/_posts/.pic/2023-02-03-12-45-36.png" width = 80%/></div>
+  <div align=center><img src="../images/posts/2023-02-03-12-45-36.png" width = 80%/></div>
 
 - 执行以下命令进行镜像导入
   ```
@@ -179,7 +179,7 @@ docker exec -it qinglong task test.js conc
 curl -sSL https://ghproxy.com/https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/qinglong/ray-dotnet-install.sh | bash /dev/stdin --no-official
 ```
 
-<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog@main/source/_posts/.pic/2023-02-03-15-40-53.png" width = 80%/></div>
+<div align=center><img src="../images/posts/2023-02-03-15-40-53.png" width = 80%/></div>
 
 2. 重启青龙容器，或在宿主机中执行`docker exec -it qinglong bash /ql/data/config/extra.sh`，其中`qinglong`是你的容器名
 
@@ -187,7 +187,7 @@ curl -sSL https://ghproxy.com/https://raw.githubusercontent.com/RayWangQvQ/BiliB
 青龙面板，`配置文件`页。
 修改 `RepoFileExtensions="js py"` 为 `RepoFileExtensions="js py sh"`
 保存配置。
-<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog@main/source/_posts/.pic/2023-02-03-15-49-09.png" width = 80%/></div>
+<div align=center><img src="../images/posts/2023-02-03-15-49-09.png" width = 80%/></div>
 
 4. 在青龙面板中添加拉库定时任务
    订阅管理(没提到的不要动)
@@ -206,7 +206,7 @@ curl -sSL https://ghproxy.com/https://raw.githubusercontent.com/RayWangQvQ/BiliB
 
 5. 在青龙定时任务中，点击运行`bili扫码登录`任务，查看运行日志，扫描日志中的二维码进行登录。
 登录成功后，会将 cookie 保存到青龙的环境变量中
-<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog@main/source/_posts/.pic/2023-02-03-15-53-06.png" width = 80%/></div>
+<div align=center><img src="../images/posts/2023-02-03-15-53-06.png" width = 80%/></div>
 
 6. 拉库时，如果服务器在国内，访问 GitHub 速度慢，可以在仓库地址前加上 `https://ghproxy.com/` 进行加速, 如：`ql repo https://ghproxy.com/https://github.com/RayWangQvQ/BiliBiliToolPro.git "bili_task_"`
 

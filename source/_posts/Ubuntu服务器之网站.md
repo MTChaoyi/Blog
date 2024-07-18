@@ -163,4 +163,4 @@ sudo systemctl restart tomcat
 
 **一路回车直到显示**
 
-<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog@main/source/_posts/.pic/2022-11-18-22-05-13.png" width=80%/></div>
+<div align=center><img src="../images/posts/2022-11-18-22-05-13.png" width=80%/></div>

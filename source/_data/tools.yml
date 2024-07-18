@@ -3,9 +3,9 @@
 - name: Photopea
   link: https://ps.mtian.net
   description: 免费的在线图片编辑器
-  image: /img/tools/photopea.png
+  image: /images/tools/photopea.png
 
 - name: OpenChat
   link: https://openchat.mtian.net
   description: Open WebUI
-  image: /img/tools/openwebui.png
+  image: /images/tools/openwebui.png

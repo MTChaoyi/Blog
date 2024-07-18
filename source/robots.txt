@@ -1,8 +1,18 @@
-User-agent: Baiduspider
+User-agent: *
+Allow: /
+Allow: /about/
+Allow: /categories/
+Allow: /tags/
+Allow: /tools/
+Disallow: /archives/
+Disallow: /css/
+Disallow: /font/
+Disallow: /js/
+Disallow: /fancybox/
+Sitemap: https://www.mtian.net/sitemap.xml
 
+User-agent: Baiduspider
 Sitemap: https://www.mtian.net/baidusitemap.xml
 
-User-agent: *
-Disallow:
-
-Sitemap: https://www.mtian.net/sitemap.xml
+User-agent: PetalBot
+Disallow: /
