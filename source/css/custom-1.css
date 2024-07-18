@@ -57,6 +57,10 @@ body::before {
   backdrop-filter: blur(calc(var(--header-backdrop-filter-blur) * 1.25));
 }
 
+.header-wrapper .header-content.has-first-screen {
+  max-width: var(--page-content-max-width);
+}
+
 .home-content-container {
   padding: 2.8rem;
   border-radius: var(--box-border-radius);
