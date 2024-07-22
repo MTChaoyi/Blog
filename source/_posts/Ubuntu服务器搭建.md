@@ -7,6 +7,9 @@ categories:
   - 一点小教程
 description: 自用的Ubuntu服务器搭建过程
 date: 2022-11-13 04:39:57
+updated: 2022-11-13 04:39:57
+aging: true
+aging_days: 60
 ---
 
 # Ubuntu 安装

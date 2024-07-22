@@ -7,6 +7,9 @@ tags:
 categories:
   - 一点小教程
 date: 2022-03-17 23:42:34
+updated: 2022-03-17 23:42:34
+aging: true
+aging_days: 60
 ---
 
 # 环境搭建
