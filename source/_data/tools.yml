@@ -6,6 +6,11 @@
   image: /images/tools/photopea.png
 
 - name: OpenChat
-  link: https://openchat.mtian.net
+  link: https://open-webui.mtian.net
   description: Open WebUI
   image: /images/tools/openwebui.png
+
+- name: Nezha
+  link: https://nezha.mtian.net
+  description: 哪吒监控
+  image: /images/tools/nezha.svg
