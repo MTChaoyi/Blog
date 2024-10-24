@@ -151,7 +151,10 @@ feed:
   order_by: -date
   icon: /images/myicon.png
   autodiscovery: true
-  # template: ./source/uploads/atom_template.xml
+  template: ./source/uploads/atom.xml
+  follow_challenge:
+    feedId: "72222955017923584"
+    userId: "68237323908637696"
 
 search:
   path: search.json
