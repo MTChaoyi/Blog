@@ -2208,10 +2208,10 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-keep@^4.2.3:
-  version "4.2.4"
-  resolved "https://registry.npmmirror.com/hexo-theme-keep/-/hexo-theme-keep-4.2.4.tgz#652a9e1309deb5daacbe086a0bd854c4a0086e78"
-  integrity sha512-3N4T/Z6UkkMuoB8UlPcxPEEHs6ZgB1KCnJLkOuN0Yo/IXs9blIpW1hUyjaHn4JDAPlTWrCS6nKQ/OJrwa9vrWQ==
+hexo-theme-keep@^4.2.5:
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/hexo-theme-keep/-/hexo-theme-keep-4.2.5.tgz#04d2fb42711670c57bbc80496a739d8ecde76a3b"
+  integrity sha512-VAMgfA80o2hhQ9kWU4OBihlcvRXETHusxTQ6tH/v6YQIZLMvf3rax1cCDyp80SeqFHP6GG70Wr+1oM2AwoKfLA==
 
 hexo-theme-landscape@^1.0.0:
   version "1.0.0"
